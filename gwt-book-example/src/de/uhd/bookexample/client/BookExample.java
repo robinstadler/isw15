@@ -93,7 +93,7 @@ public class BookExample implements EntryPoint { // <- Start der Webanwendung
 		ListHandler<Book> sortHandler = new ListHandler<Book>(
 				bookDataProvider.getList());
 		
-		bookTable.addCol
+//		bookTable.addCol
 		
 		sortHandler.setComparator(isbnCol, new Comparator<Book>() {
 
